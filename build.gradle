@@ -1,0 +1,7 @@
+// build.gradle (root)
+plugins {}
+
+/** Tarea utilitaria opcional */
+tasks.register("cleanAll", Delete) {
+    delete rootProject.buildDir
+}

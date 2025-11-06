@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab6</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">1362825172202250</string>
+    <string name="facebook_client_token">49afd88563afcecd63c3b3395cbc98cb</string>
+    <!-- Scheme requerido para el callback nativo -->
+    <string name="fb_login_protocol_scheme">fb1362825172202250</string>
+
+    <!-- Google Sign-In -->
+    <string name="default_web_client_id">945897351553-5s7v8j8t7c3h66uleamqo1mjaijamcdu.apps.googleusercontent.com</string>
+</resources>

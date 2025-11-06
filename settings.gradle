@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' } // opcional, no suele ser necesario para plugins
+    }
+    plugins {
+        id("com.android.application") version "8.4.1"
+        id("com.google.gms.google-services") version "4.4.2"
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // necesario para com.github.AnyChart
+    }
+}
+
+rootProject.name = "Lab6_20203266"
+include(":app")
